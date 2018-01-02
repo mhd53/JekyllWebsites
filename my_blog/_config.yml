@@ -4,6 +4,7 @@
 # NB! Set your site's url, otherwise stuff will break :)
 
 url: "https://mhd53.github.io"
+## url: "mhd53.com"
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (https://yourusername.github.io/repository-name)
@@ -12,7 +13,10 @@ url: "https://mhd53.github.io"
 #
 # NB! Without this *nothing* will work, because it's used in every path :)
 
-baseurl: "" 
+baseurl: ""
+
+# Local Server settings
+port: 8080
 
 # Google tracking id
 
@@ -41,13 +45,13 @@ favicon: "/img/favicon.ico"
 
 black-favicon: "/img/black-lab-glass.ico"
 
-background-img: "../img/intro-bg_01.jpeg"
+background-img: "../img/intro-bg_03.jpeg"
 
 ##############################
 # Dynamic Text on the Header #
 ##############################
 
-dynamic-typing: True
+dynamic-typing: False
 shuffle: False # Shuffle the lines false.
 loop: True
 loop-count: False # Set False for infinite loop, or set any number for finite loop.
@@ -56,10 +60,10 @@ start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
   - text: "Life doesn't give you what you want."
-  - text: "Life gives you only what you deserve."
-  - text: "The Gods will offer you chances."
-  - text: "Know them! Take them!"
-  - text: "The Gods are waiting to delight."
+  - text: "Life only gives you what you deserve."
+##   - text: "The Gods will offer you chances."
+##   - text: "Know them! Take them!"
+##   - text: "The Gods are waiting to delight."
 
 me-img: "/img/me2_01.jpg"
 
@@ -135,7 +139,7 @@ syntax-highlight: True
 
 events:
   - image: "/img/timeline/machine_learning.svg.png"
-    date: "July 2017 - Today"
+    date: "July 2017 - December 2017"
     description: "Learning Machine Learning"
   - image: "/img/timeline/Android_Studio_icon.svg.png"
     date: "November 2016 - Today"
@@ -149,7 +153,7 @@ events:
 
 # First image of the Timeline
 
-timeline-img: "/img/timeline/default.png"
+timeline-img: "/img/timeline/python-logo.svg.png"
 
 ###########
 # Contact #
@@ -194,9 +198,9 @@ err-404-img: "/img/labtocat.png"
 # GPG on Keybase #
 ##################
 
-keybase-username: johnsmith
-keybase-in-social: True
-keybase-in-footer: True
+keybase-username:
+keybase-in-social: False
+keybase-in-footer: False
 
 ################################################################################
 
@@ -206,9 +210,10 @@ keybase-in-footer: True
 
 pages_list:
   About: 'about'
-  Blog: 'latest-post'
+  ## Blog: 'latest-post'
   Timeline: 'timeline'
-  Contact: 'contact'
+  Projects: 'projects'
+  ## Contact: 'contact'
 
 # Exclusion list from the generated _site
 

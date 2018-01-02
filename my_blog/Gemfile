@@ -29,3 +29,5 @@ gem "jemoji"
 
 gem "jekyll-paginate"
 
+# Gitub-pages udpate gem; use 'bundle update' often
+gem "github-pages", group: :jekyll_plugins
