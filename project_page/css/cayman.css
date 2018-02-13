@@ -1,23 +1,23 @@
-/*
-* {
+---
+---
+.cayman-theme * {
   box-sizing: border-box; }
 
-body {
+.cayman-theme body {
   padding: 0;
   margin: 0;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: #606c71; }
- */
 
-a {
+.cayman-theme a {
   color: #1e6bb8;
   text-decoration: none; }
   a:hover {
     text-decoration: underline; }
 
-.btn {
+.cayman-theme .btn {
   display: inline-block;
   margin-bottom: 1rem;
   color: rgba(255, 255, 255, 0.7);
@@ -27,47 +27,45 @@ a {
   border-width: 1px;
   border-radius: 0.3rem;
   transition: color 0.2s, background-color 0.2s, border-color 0.2s; }
-  .btn:hover {
+  .cayman-theme .btn:hover {
     color: rgba(255, 255, 255, 0.8);
     text-decoration: none;
     background-color: rgba(255, 255, 255, 0.2);
     border-color: rgba(255, 255, 255, 0.3); }
-  .btn + .btn {
+  .cayman-theme .btn + .btn {
     margin-left: 1rem; }
   @media screen and (min-width: 64em) {
-    .btn {
+  .cayman-theme .btn {
       padding: 0.75rem 1rem; } }
   @media screen and (min-width: 42em) and (max-width: 64em) {
-    .btn {
+  .cayman-theme .btn {
       padding: 0.6rem 0.9rem;
       font-size: 0.9rem; } }
   @media screen and (max-width: 42em) {
-    .btn {
+  .cayman-theme .btn {
       display: block;
       width: 100%;
       padding: 0.75rem;
       font-size: 0.9rem; }
-      .btn + .btn {
+   .cayman-theme .btn + .btn {
         margin-top: 1rem;
         margin-left: 0; } }
 
 .page-header {
   margin: 0;
+  padding: 2px;
   color: #fff;
   text-align: center;
-  /*
-  background-color: #159957;
-  */
-  background-color: #000;
+  background-color: #000; 
   background-image: linear-gradient(120deg, #000, #000); }
   @media screen and (min-width: 64em) {
-    .page-header {
+    .cayman-theme .page-header {
       padding: 5rem 6rem; } }
   @media screen and (min-width: 42em) and (max-width: 64em) {
-    .page-header {
+    .cayman-theme .page-header {
       padding: 3rem 4rem; } }
   @media screen and (max-width: 42em) {
-    .page-header {
+    .cayman-theme .page-header {
       padding: 2rem 1rem; } }
 
 .project-name {
@@ -75,70 +73,69 @@ a {
   margin-bottom: 0.1rem; 
  }
   @media screen and (min-width: 64em) {
-    .project-name {
+  .project-name {
       font-size: 3.25rem; } }
   @media screen and (min-width: 42em) and (max-width: 64em) {
-    .project-name {
+  .project-name {
       font-size: 2.25rem; } }
   @media screen and (max-width: 42em) {
-    .project-name {
+  .project-name {
       font-size: 1.75rem; } }
 
-.project-tagline {
+.cayman-theme .project-tagline {
   margin-bottom: 2rem;
   font-weight: normal;
   opacity: 0.7; }
   @media screen and (min-width: 64em) {
-    .project-tagline {
+    .cayman-theme .project-tagline {
       font-size: 1.25rem; } }
   @media screen and (min-width: 42em) and (max-width: 64em) {
-    .project-tagline {
+   .cayman-theme  .project-tagline {
       font-size: 1.15rem; } }
   @media screen and (max-width: 42em) {
-    .project-tagline {
+   .cayman-theme  .project-tagline {
       font-size: 1rem; } }
 
-/*
-.main-content {
+div.main-content {
   word-wrap: break-word; }
-  .main-content :first-child {
+  div.main-content :first-child {
     margin-top: 0; }
   @media screen and (min-width: 64em) {
-    .main-content {
+    div.main-content {
       max-width: 64rem;
       padding: 2rem 6rem;
       margin: 0 auto;
       font-size: 1.1rem; } }
   @media screen and (min-width: 42em) and (max-width: 64em) {
-    .main-content {
+    div.main-content {
       padding: 2rem 4rem;
       font-size: 1.1rem; } }
   @media screen and (max-width: 42em) {
-    .main-content {
+    div.main-content {
       padding: 2rem 1rem;
       font-size: 1rem; } }
-  .main-content img {
+  div.main-content img {
     max-width: 100%; }
-  .main-content h1,
-  .main-content h2,
-  .main-content h3,
-  .main-content h4,
-  .main-content h5,
-  .main-content h6 {
+  div.main-content h1,
+  div.main-content h2,
+  div.main-content h3,
+  div.main-content h4,
+  div.main-content h5,
+  div.main-content h6 {
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-weight: normal;
     color: #159957; }
-  .main-content p {
+  div.main-content p {
     margin-bottom: 1em; }
-  .main-content code {
+  div.main-content code {
     padding: 2px 4px;
     font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
     font-size: 0.9rem;
     color: #567482;
     background-color: #f3f6fa;
     border-radius: 0.3rem; }
-  .main-content pre {
+  div.main-content pre {
     padding: 0.8rem; margin-top: 0;
     margin-bottom: 1rem;
     font: 1rem Consolas, "Liberation Mono", Menlo, Courier, monospace;
@@ -147,7 +144,7 @@ a {
     background-color: #f3f6fa;
     border: solid 1px #dce6f0;
     border-radius: 0.3rem; }
-    .main-content pre > code {
+    div.main-content pre > code {
       padding: 0;
       margin: 0;
       font-size: 0.9rem;
@@ -156,21 +153,21 @@ a {
       white-space: pre;
       background: transparent;
       border: 0; }
-  .main-content .highlight {
+  div.main-content .highlight {
     margin-bottom: 1rem; }
-    .main-content .highlight pre {
+    div.main-content .highlight pre {
       margin-bottom: 0;
       word-break: normal; }
-  .main-content .highlight pre,
-  .main-content pre {
+  div.main-content .highlight pre,
+  div.main-content pre {
     padding: 0.8rem;
     overflow: auto;
     font-size: 0.9rem;
     line-height: 1.45;
     border-radius: 0.3rem;
     -webkit-overflow-scrolling: touch; }
-  .main-content pre code,
-  .main-content pre tt {
+  div.main-content pre code,
+  div.main-content pre tt {
     display: inline;
     max-width: initial;
     padding: 0;
@@ -180,75 +177,73 @@ a {
     word-wrap: normal;
     background-color: transparent;
     border: 0; }
-    .main-content pre code:before, .main-content pre code:after,
-    .main-content pre tt:before,
-    .main-content pre tt:after {
+    div.main-content pre code:before, div.main-content pre code:after,
+    div.main-content pre tt:before,
+    div.main-content pre tt:after {
       content: normal; }
-  .main-content ul,
-  .main-content ol {
+  div.main-content ul,
+  div.main-content ol {
     margin-top: 0; }
-  .main-content blockquote {
+  div.main-content blockquote {
     padding: 0 1rem;
     margin-left: 0;
-    color: #819198;
+    /* color: #819198; */
+    color: #fff;
     border-left: 0.3rem solid #dce6f0; }
-    .main-content blockquote > :first-child {
+    div.main-content blockquote > :first-child {
       margin-top: 0; }
-    .main-content blockquote > :last-child {
+    div.main-content blockquote > :last-child {
       margin-bottom: 0; }
-  .main-content table {
+  div.main-content table {
     display: block;
     width: 100%;
     overflow: auto;
     word-break: normal;
     word-break: keep-all;
     -webkit-overflow-scrolling: touch; }
-    .main-content table th {
+    div.main-content table th {
       font-weight: bold; }
-    .main-content table th,
-    .main-content table td {
+    div.main-content table th,
+    div.main-content table td {
       padding: 0.5rem 1rem;
       border: 1px solid #e9ebec; }
-  .main-content dl {
+  div.main-content dl {
     padding: 0; }
-    .main-content dl dt {
+    div.main-content dl dt {
       padding: 0;
       margin-top: 1rem;
       font-size: 1rem;
       font-weight: bold; }
-    .main-content dl dd {
+    div.main-content dl dd {
       padding: 0;
       margin-bottom: 1rem; }
-  .main-content hr {
+  div.main-content hr {
     height: 2px;
     padding: 0;
     margin: 1rem 0;
     background-color: #eff0f1;
     border: 0; }
 
-.site-footer {
+.cayman-theme .site-footer {
   padding-top: 2rem;
   margin-top: 2rem;
   border-top: solid 1px #eff0f1; }
   @media screen and (min-width: 64em) {
-    .site-footer {
+    .cayman-theme .site-footer {
       font-size: 1rem; } }
   @media screen and (min-width: 42em) and (max-width: 64em) {
-    .site-footer {
+    .cayman-theme .site-footer {
       font-size: 1rem; } }
   @media screen and (max-width: 42em) {
-    .site-footer {
+    .cayman-theme .site-footer {
       font-size: 0.9rem; } }
 
-.site-footer-owner {
+.cayman-theme .site-footer-owner {
   display: block;
   font-weight: bold; }
-*/
 
-/*
-.site-footer-credits {
+.cayman-theme .site-footer-credits {
   color: #819198; }
-*/
 
 /* Mhd53 */
 /*
@@ -257,7 +252,7 @@ a {
 	 margin: 0;
  }
  */
-/*
+/* 
 #headerContainer {
 	width: 100%;
 	margin: 0;
