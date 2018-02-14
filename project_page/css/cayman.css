@@ -53,7 +53,7 @@
 
 .page-header {
   margin: 0;
-  padding: 2px;
+  padding: 60px;
   color: #fff;
   text-align: center;
   background-color: #000; 
@@ -122,11 +122,13 @@ div.main-content {
   div.main-content h4,
   div.main-content h5,
   div.main-content h6 {
+    text-align: left;
     margin-top: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 4rem;
     font-weight: normal;
     color: #159957; }
   div.main-content p {
+    text-align: left;
     margin-bottom: 1em; }
   div.main-content code {
     padding: 2px 4px;
@@ -183,6 +185,7 @@ div.main-content {
       content: normal; }
   div.main-content ul,
   div.main-content ol {
+    text-align: left;
     margin-top: 0; }
   div.main-content blockquote {
     padding: 0 1rem;
@@ -224,6 +227,9 @@ div.main-content {
     background-color: #eff0f1;
     border: 0; }
 
+div.main-content .list-title {
+	/* text-align: center; */
+}
 .cayman-theme .site-footer {
   padding-top: 2rem;
   margin-top: 2rem;
