@@ -12,7 +12,7 @@ url: "https://mhd53.github.io"
 #
 # NB! Without this *nothing* will work, because it's used in every path :)
 
-baseurl: ""
+baseurl: "/Android"
 
 # Local Server settings
 port: 8000
@@ -32,9 +32,9 @@ force-https: True
 #############
 
 lang: "en"
-author: "John Smith"
-title: "{ John Smith }"
-description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
+author: "Mohammad Darabi"
+title: "mhd53"
+description: "Blog and website of Mohammad Darabi, blogging mainly about personal projects."
 keywords: "smith, jones, personal, jekyll, theme"
 favicon: "/img/favicon.ico"
 
@@ -188,9 +188,9 @@ err-404-img: "/img/labtocat.png"
 # GPG on Keybase #
 ##################
 
-keybase-username: johnsmith
-keybase-in-social: True
-keybase-in-footer: True
+keybase-username: 
+keybase-in-social: False
+keybase-in-footer: False
 
 ################################################################################
 
