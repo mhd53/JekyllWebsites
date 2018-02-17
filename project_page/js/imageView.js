@@ -13,7 +13,7 @@ $(function() {
 		imageViewer.append(photo);
 
 		// Add image view to DOM
-		$(".container").append(imageViewer);
+		$(".main-content").append(imageViewer);
 		imageViewer.fadeTo(500, 1);
 
 		// Set event to close image viewer
