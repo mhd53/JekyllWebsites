@@ -8,10 +8,10 @@
 	
 }
 
-.photo {
-	width: 150x;
-	height: 300px;
-	margin: 10px;
+img.photo {
+	width: 75%;
+	height: 75%;
+	margin: 10px 0 10px 0;
 	display: inline;
 	transition: .5s;
 }

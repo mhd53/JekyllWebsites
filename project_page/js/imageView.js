@@ -7,9 +7,13 @@ $(function() {
 		var imageViewer = $("<div></div>");
 		imageViewer.addClass("imageViewer");
 
+		// Set hover value for photo class to none
+		$(".photo").hover(function() {
+			$(this).css("border", "");
+		});
+
 		var photo = $("<img>");
 		photo.addClass("photo");
-		// photo.addClass("rounded mx-auto d-block");
 		photo.attr('src', link);
 		imageViewer.append(photo);
 
@@ -23,6 +27,11 @@ $(function() {
 			$(this).fadeTo(500, 0, function() 
 			{
 				$(this).remove();
+				//
+				// Set hover value for photo class to default
+				$(".photo").hover(function() {
+					$(this).css("border", "#159957");
+				});
 			});
 		});
 	});
