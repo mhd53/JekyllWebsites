@@ -1,3 +1,7 @@
+div.liquid-vars {
+	display: none;
+}
+
 li.list-group-item {
 	background-color: black;
 }

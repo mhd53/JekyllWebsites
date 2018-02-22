@@ -8,6 +8,18 @@
         <i class="fa fa-bars"></i>
       </button>
       <a class="navbar-brand page-scroll" href="{{site.baseurl}}/">
+
+      <!-- div containing liquid variables to access via javascript -->  
+      <div class="liquid-vars" baseurl="{{site.baseurl}}/" url="{{site.url}}/"></div>  
+
+      {% comment %}
+      {% if page.section-type == "index" and page.url != "{{site.baseurl}}/#top" %}
+        <a class="navbar-brand page-scroll" href="#page-top">
+      {% else %}
+      	<a class="navbar-brand" href="{{site.url}}/">
+      {% endif %}
+      {% endcomment %}
+
       {% comment %}
       {% if page.section-type == "index" %}
         <a class="navbar-brand page-scroll" href="#page-top">
@@ -15,6 +27,7 @@
         <a class="navbar-brand" href="{{site.baseurl}}/">
       {% endif %}
       {% endcomment %}
+
           <div>
             {% if site.black-favicon %}
               <img src="{{site.baseurl}}{{ site.black-favicon }}" alt="">
