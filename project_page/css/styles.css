@@ -11,12 +11,20 @@ li.list-group-item {
 	height: 100%;
 	margin: 20px 0 20px 0;
 	perspective: 1000px;
+	display: inline-block;
+}
+
+.gallery {
+	margin: 0 70px;
+	/* margin: 0px 70px 0px 70px; */
+	border: white solid 5px;
+	/* padding: 0 70px 0 70px; */
 }
 
 img.thumbnail {
-	height: 250px;
-	width: 100%;
-	margin: 10px 0 10px 0;
+	width: 70%;
+	margin: 20px 0;
+	/* margin: 20px 0 20px 0; */
 	display: inline;
 }	
 
