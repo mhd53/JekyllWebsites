@@ -27,6 +27,11 @@ img.thumbnail {
 	display: inline;
 }	
 
+#first-elem, #second-elem, #third-elem, 
+#forth-elem, #fifth-elem {
+	padding-top: 25px;
+}
+
 /* Responsize design - content oriented */
 @media (max-width: 459px) {
 	img.thumbnail {
